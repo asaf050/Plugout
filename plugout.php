@@ -15,14 +15,6 @@ if ( !function_exists( 'add_action' ) ) {
 // Protected attributes array
 $protected_attributes = array("before","after","element","description","label");
 
-// List all libraries files
-$_libraries = glob( dirname(__FILE__) . '/libraries/class.*.php' );
-
-// Include all libraries
-foreach( $_libraries as $lib ) {
-	include $lib;
-}
-
 /*
  ------------------
  Actions
