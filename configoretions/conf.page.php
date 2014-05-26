@@ -4,7 +4,6 @@ $configoretion = array(
 		"id" => "second-metabox",
 		"screens" => array("page","post"),
 		"name" => "Second Testing",
-		"text" => "Just some text here.",
 		"elements" => array(
 						array(
                             "label" => "A Simple Text Input",
